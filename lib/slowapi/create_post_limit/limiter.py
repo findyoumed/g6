@@ -85,7 +85,7 @@ def get_cf_delay_sec_from_db():
 
 
 # 요청 제한 limiter 인스턴스 생성
-limiter = LimiterNoWarning(key_func=limiter_key_func)
+# limiter = LimiterNoWarning(key_func=limiter_key_func)
 
 
 @limiter.limit(
