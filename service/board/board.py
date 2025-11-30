@@ -17,7 +17,7 @@ from lib.common import (
     remove_query_params, set_url_query_params
 )
 from lib.html_sanitizer import content_sanitizer
-from lib.slowapi.create_post_limit.limiter import validate_slowapi_create_post
+# from lib.slowapi.create_post_limit.limiter import validate_slowapi_create_post
 from lib.pbkdf2 import create_hash, validate_password
 from service import BaseService
 from service.board_file_service import BoardFileService
